@@ -1,0 +1,155 @@
+@media (max-width: 767px) {
+  .navbars .link {
+    margin: 2rem auto;
+    font-size: 5rem;
+  }
+  .navbars {
+    width: 80vw;
+  }
+  .art {
+    width: 20vw;
+    margin: 4rem auto;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 0.6vw;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 0.5vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 0.4vw;
+  }
+}
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 0.5vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .work,
+  .overlay {
+    width: 60% !important;
+    font-size: 5rem;
+  }
+}
+@media (max-width: 767px) {
+  .presonal {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 10rem auto;
+  }
+  .presonal h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 7rem;
+    margin: 5rem 10rem auto;
+  }
+  ol.s {
+    list-style-image: url("/img/icon.png");
+    color: var(--my-coler);
+  }
+  ol.s li {
+    font-size: 5rem;
+    padding: 0.5rem;
+    font-weight: bold;
+  }
+  .htm,
+  .cs,
+  .boot,
+  .jss,
+  .sas,
+  .dog,
+  .git {
+    padding: 3rem 0.5rem;
+  }
+  .Recent,
+  .Contact,
+  .skills,
+  .about {
+    margin: 0 10rem auto;
+  }
+  .skillsfle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .abo {
+    border: 0;
+  }
+  .photo {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0 auto;
+  }
+  .heder {
+    width: 58%;
+    margin: 10rem 10rem auto;
+    font-size: 8rem;
+  }
+  .mdia a {
+    margin: 6rem auto;
+  }
+  .typewrite {
+    font-size: 8rem;
+  }
+  .Recent h2,
+  .abo,
+  .skills h2,
+  .Contact h2 {
+    font-size: 8rem;
+  }
+  .me,
+  .me-skills,
+  .me-Recent,
+  .time {
+    font-size: 4rem;
+    line-height: 7.8rem;
+  }
+  .summaer {
+    font-size: 5rem;
+  }
+  .table,
+  label {
+    font-size: 4rem;
+  }
+  input {
+    min-width: 40rem;
+    padding: 2rem;
+    font-size: 3rem;
+  }
+  form {
+    padding: 7rem;
+    width: 70%;
+  }
+  form button {
+    margin-top: 4.5rem;
+    min-width: 30rem;
+
+    padding: 2.5rem;
+    font-size: 4rem;
+  }
+}
